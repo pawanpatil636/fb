@@ -1,0 +1,57 @@
+.container{
+    margin-top: 100px;
+    display:flex;
+    align-items:center ;
+}
+
+
+.tr{
+    height: 7.5vh;
+    width: 325px;
+    border-width: 0.1px;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    text-indent: 10px;
+   
+}
+
+.but{
+    height: 7.5vh;
+    width: 325px;
+  
+    border-width: 0.1px;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    text-indent: 10px;
+}
+.btn {
+    width: 325px;
+    height: 7.5vh;
+}
+.button{
+
+    height: 8vh;
+    width: 200px;
+    background-color: #42b72a;
+    color: white;
+    font-size:large;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+
+}
+.p{
+
+    font-size: 15px;
+    color:black;
+    
+   
+}
+ @media(max-width:600px)
+ {
+     
+    .container{
+        display: flex;
+     flex-direction: column;
+       
+    }
+
